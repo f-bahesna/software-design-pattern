@@ -1,10 +1,14 @@
 <?php
 declare(strict_types=1);
 
+use Comment\CommentInterface;
+use Like\LikeInterface;
+use Posting\PostingInterface;
+
 /**
  * @author frada <fbahezna@gmail.com>
  **/
-class Post
+class Action
 {
     /**
      * @var CommentInterface
@@ -16,15 +20,22 @@ class Post
      */
     private $like;
 
-    public function __construct(PostFactory $PostFactory)
+    /**
+     * @var PostingInterface
+     */
+    private $posting;
+
+    public function __construct(AbstractPostFactory $PostFactory)
     {
         $this->comment  = $PostFactory->addComment();
         $this->like     = $PostFactory->addLike();
+        $this->posting  = $PostFactory->addPosting();
     }
 
     public function add()
     {
         $this->comment->addComment();
         $this->like->addLike();
+        $this->posting->addPosting();
     }
 }

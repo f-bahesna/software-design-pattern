@@ -1,10 +1,11 @@
 <?php
 declare(strict_types=1);
 
+namespace Comment;
 /**
  * @author frada <fbahezna@gmail.com>
  **/
-interface LikeInterface
+interface CommentInterface
 {
-    function addLike(): string;
+    function addComment(): string;
 }
