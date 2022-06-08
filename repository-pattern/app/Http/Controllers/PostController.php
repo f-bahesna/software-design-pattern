@@ -9,18 +9,18 @@ class PostController extends Controller
     /**
      * @var PostRepository
      */
-    private $repository;
+    private $postRepository;
 
     /**
      * @param PostRepository $repository
      */
     public function __construct(PostRepository $repository)
     {
-        $this->repository = $repository;
+        $this->postRepository = $repository;
     }
 
     public function findAllPosts()
     {
-        return $this->repository->findAll();
+        return $this->postRepository->findAll();
     }
 }

@@ -9,34 +9,29 @@ use App\Models\Post;
  **/
 final class PostRepository implements PostRepositoryInterface
 {
+    /**
+     * @var Post
+     */
+    private $postModel;
+
+    /**
+     * @param Post $post
+     */
+    public function __construct(Post $post)
+    {
+        $this->postModel = $post;
+    }
+
     public function findAll()
     {
-        //Data dari database
-        return [
-            [
-                'id' => 1,
-                'image' => 'makanan_sehat.jpg',
-                'caption' => 'Hello guys kali ini aku pesen makanan sehat di blablabla.com',
-                'location' => 'Jakarta, Indonesia'
-            ],
-            [
-                'id' => 2,
-                'image' => 'minuman_sehat.jpg',
-                'caption' => 'Hello guys kali ini aku pesen minuman sehat di blablabla.com',
-                'location' => 'Jakarta, Indonesia'
-            ],
-            [
-                'id' => 3,
-                'image' => 'cemilan_sehat.jpg',
-                'caption' => 'Hello guys kali ini aku pesen cemilan sehat di blablabla.com',
-                'location' => 'Jakarta, Indonesia'
-            ],
-        ];
+        $posts = $this->postModel->posts();
+
+        return $posts;
     }
 
     public function findById(string $id)
     {
-        return Post::find($id);
+        // TODO: Implement findById() method.
     }
 
     public function save(Post $post)

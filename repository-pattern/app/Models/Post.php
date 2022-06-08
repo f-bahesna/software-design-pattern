@@ -10,13 +10,34 @@ use Illuminate\Support\Collection;
  **/
 class Post extends Model
 {
-    public function findAll(): Collection
+    //Contoh data dibawah diambil dari database
+    //Biasa kita menggunakan Post::all();
+    public function posts()
     {
-        return Post::all();
+        return [
+            [
+                'id' => 1,
+                'image' => 'makanan_sehat.jpg',
+                'caption' => 'Hello guys kali ini aku pesen makanan sehat di blablabla.com',
+                'location' => 'Jakarta, Indonesia'
+            ],
+            [
+                'id' => 2,
+                'image' => 'minuman_sehat.jpg',
+                'caption' => 'Hello guys kali ini aku pesen minuman sehat di blablabla.com',
+                'location' => 'Jakarta, Indonesia'
+            ],
+            [
+                'id' => 3,
+                'image' => 'cemilan_sehat.jpg',
+                'caption' => 'Hello guys kali ini aku pesen cemilan sehat di blablabla.com',
+                'location' => 'Jakarta, Indonesia'
+            ],
+        ];
     }
 
-    public function findById()
+    public function findById(string $id)
     {
-        return Post::find();
+        // TODO: Implement findById method.
     }
 }

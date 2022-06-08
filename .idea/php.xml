@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/league/config" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/composer" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/repository-pattern/vendor/laravel/framework" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/repository-pattern/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
